@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Busca informação de CEP</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="main-content">
+      <h1 class="mb-4">Busca de CEP</h1>
+      <h5 class="mb-4">
+        Utilize o campo abaixo para conseguir informações sobre um determinado
+        CEP
+      </h5>
+
+      <form id="find-cep" class="mb-4" name="cepLookup">
+        <input type="text" name="cep" />
+        <button class="btn btn-primary" type="submit">Procurar</button>
+      </form>
+
+      <div class="card mb-4">
+        <div class="card-body">
+          <h3 class="card-title">Sobre o endereço:</h3>
+          <div id="cep-info"  class="card-text d-flex flex-column">
+            <div>Logradouro: <b>Armazém</b></div>
+            <div>Bairro: <b>Centro</b></div>
+            <div>Cidade: <b>Balnéario Camboriu</b></div>
+            <div>DDD: <b>49</b></div>
+            <div>Estado: <b>SC</b></div>
+          </div>
+        </div>
+      </div>
+
+      <h6>
+        As informações sobre os CEPs são disponibilizadas atráves da API do site
+        <a href="https://viacep.com.br/">ViaCEP</a>. Acesse
+        <a href="https://viacep.com.br/">ViaCEP</a> para saber mais
+      </h6>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>

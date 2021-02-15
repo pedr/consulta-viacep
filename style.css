@@ -1,0 +1,20 @@
+html {
+  background-color: #1c5e1f;
+  opacity: 0.8;
+  background: linear-gradient(135deg, #8b8fe298 25%, transparent 25%) -20px 0/ 40px 40px, linear-gradient(225deg, #6d72cf 25%, transparent 25%) -20px 0/ 40px 40px, linear-gradient(315deg, #8b8fe298 25%, transparent 25%) 0px 0/ 40px 40px, linear-gradient(45deg, #6d72cf 25%, #1c5e1f 25%) 0px 0/ 40px 40px;
+  margin: 60px;
+  height: auto;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  min-height: 400px;
+}
+
+.address-content {
+  width: 80%;
+  box-shadow: 2px 2px 5px;
+}
